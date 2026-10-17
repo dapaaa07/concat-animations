@@ -1,0 +1,23 @@
+{
+  "id": "fade_in",
+  "name": "Fade In",
+  "kind": "in",
+  "targets": ["all"],
+  "defaultDuration": 0.5,
+  "minDuration": 0.1,
+  "maxDuration": 3.0,
+  "tracks": {
+    "opacity": [
+      {
+        "t": 0.0,
+        "value": { "type": "absolute", "value": 0.0 },
+        "ease": "linear"
+      },
+      {
+        "t": 1.0,
+        "value": { "type": "absolute", "value": 1.0 },
+        "ease": "linear"
+      }
+    ]
+  }
+}

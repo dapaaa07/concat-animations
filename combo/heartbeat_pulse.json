@@ -1,0 +1,43 @@
+{
+  "id": "heartbeat_pulse",
+  "name": "Heartbeat Pulse",
+  "kind": "combo",
+  "targets": ["all"],
+  "defaultDuration": 1.0,
+  "minDuration": 0.3,
+  "maxDuration": 5.0,
+  "tracks": {
+    "scale": [
+      {
+        "t": 0.0,
+        "value": { "type": "relative", "value": 1.0 },
+        "ease": "inOut"
+      },
+      {
+        "t": 0.15,
+        "value": { "type": "relative", "value": 1.15 },
+        "ease": "out"
+      },
+      {
+        "t": 0.3,
+        "value": { "type": "relative", "value": 0.98 },
+        "ease": "inOut"
+      },
+      {
+        "t": 0.45,
+        "value": { "type": "relative", "value": 1.1 },
+        "ease": "out"
+      },
+      {
+        "t": 0.7,
+        "value": { "type": "relative", "value": 1.0 },
+        "ease": "inOut"
+      },
+      {
+        "t": 1.0,
+        "value": { "type": "relative", "value": 1.0 },
+        "ease": "linear"
+      }
+    ]
+  }
+}

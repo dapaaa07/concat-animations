@@ -1,0 +1,47 @@
+{
+  "id": "vortex_in",
+  "name": "Vortex In",
+  "kind": "in",
+  "targets": ["all"],
+  "defaultDuration": 0.6,
+  "minDuration": 0.1,
+  "maxDuration": 3.0,
+  "tracks": {
+    "scale": [
+      {
+        "t": 0.0,
+        "value": { "type": "relative", "value": 0.1 },
+        "ease": "out"
+      },
+      {
+        "t": 1.0,
+        "value": { "type": "relative", "value": 1.0 },
+        "ease": "out"
+      }
+    ],
+    "rotation": [
+      {
+        "t": 0.0,
+        "value": { "type": "offset", "value": -360.0 },
+        "ease": "out"
+      },
+      {
+        "t": 1.0,
+        "value": { "type": "offset", "value": 0.0 },
+        "ease": "out"
+      }
+    ],
+    "opacity": [
+      {
+        "t": 0.0,
+        "value": { "type": "absolute", "value": 0.0 },
+        "ease": "out"
+      },
+      {
+        "t": 0.4,
+        "value": { "type": "absolute", "value": 1.0 },
+        "ease": "linear"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "zoom_in_bounce",
+  "name": "Zoom In Bounce",
+  "kind": "in",
+  "targets": ["all"],
+  "defaultDuration": 0.5,
+  "minDuration": 0.1,
+  "maxDuration": 3.0,
+  "tracks": {
+    "scale": [
+      {
+        "t": 0.0,
+        "value": { "type": "relative", "value": 0.05 },
+        "ease": "out"
+      },
+      {
+        "t": 0.72,
+        "value": { "type": "relative", "value": 1.18 },
+        "ease": "inOut"
+      },
+      {
+        "t": 1.0,
+        "value": { "type": "relative", "value": 1.0 },
+        "ease": "out"
+      }
+    ],
+    "opacity": [
+      {
+        "t": 0.0,
+        "value": { "type": "absolute", "value": 0.0 },
+        "ease": "out"
+      },
+      {
+        "t": 0.35,
+        "value": { "type": "absolute", "value": 1.0 },
+        "ease": "linear"
+      }
+    ]
+  }
+}

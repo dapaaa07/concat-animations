@@ -1,0 +1,35 @@
+{
+  "id": "slide_in_left",
+  "name": "Slide In Left",
+  "kind": "in",
+  "targets": ["all"],
+  "defaultDuration": 0.45,
+  "minDuration": 0.1,
+  "maxDuration": 3.0,
+  "tracks": {
+    "offsetX": [
+      {
+        "t": 0.0,
+        "value": { "type": "offset", "value": -1.2 },
+        "ease": "out"
+      },
+      {
+        "t": 1.0,
+        "value": { "type": "offset", "value": 0.0 },
+        "ease": "out"
+      }
+    ],
+    "opacity": [
+      {
+        "t": 0.0,
+        "value": { "type": "absolute", "value": 0.0 },
+        "ease": "out"
+      },
+      {
+        "t": 0.35,
+        "value": { "type": "absolute", "value": 1.0 },
+        "ease": "linear"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "slide_out_right",
+  "name": "Slide Out Right",
+  "kind": "out",
+  "targets": ["all"],
+  "defaultDuration": 0.45,
+  "minDuration": 0.1,
+  "maxDuration": 3.0,
+  "tracks": {
+    "offsetX": [
+      {
+        "t": 0.0,
+        "value": { "type": "offset", "value": 0.0 },
+        "ease": "in"
+      },
+      {
+        "t": 1.0,
+        "value": { "type": "offset", "value": 1.2 },
+        "ease": "in"
+      }
+    ],
+    "opacity": [
+      {
+        "t": 0.0,
+        "value": { "type": "absolute", "value": 1.0 },
+        "ease": "linear"
+      },
+      {
+        "t": 1.0,
+        "value": { "type": "absolute", "value": 0.0 },
+        "ease": "in"
+      }
+    ]
+  }
+}

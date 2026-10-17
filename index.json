@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-17",
+  "animations": [
+    {
+      "id": "zoom_in_bounce",
+      "name": "Zoom In Bounce",
+      "kind": "in",
+      "targets": ["all"],
+      "defaultDuration": 0.5,
+      "url": "https://raw.githubusercontent.com/dapaaa07/concat-animations/main/in/zoom_in_bounce.json"
+    },
+    {
+      "id": "fade_in",
+      "name": "Fade In",
+      "kind": "in",
+      "targets": ["all"],
+      "defaultDuration": 0.5,
+      "url": "https://raw.githubusercontent.com/dapaaa07/concat-animations/main/in/fade_in.json"
+    },
+    {
+      "id": "slide_in_left",
+      "name": "Slide In Left",
+      "kind": "in",
+      "targets": ["all"],
+      "defaultDuration": 0.45,
+      "url": "https://raw.githubusercontent.com/dapaaa07/concat-animations/main/in/slide_in_left.json"
+    },
+    {
+      "id": "slide_in_right",
+      "name": "Slide In Right",
+      "kind": "in",
+      "targets": ["all"],
+      "defaultDuration": 0.45,
+      "url": "https://raw.githubusercontent.com/dapaaa07/concat-animations/main/in/slide_in_right.json"
+    },
+    {
+      "id": "vortex_in",
+      "name": "Vortex In",
+      "kind": "in",
+      "targets": ["all"],
+      "defaultDuration": 0.6,
+      "url": "https://raw.githubusercontent.com/dapaaa07/concat-animations/main/in/vortex_in.json"
+    },
+    {
+      "id": "fade_out",
+      "name": "Fade Out",
+      "kind": "out",
+      "targets": ["all"],
+      "defaultDuration": 0.5,
+      "url": "https://raw.githubusercontent.com/dapaaa07/concat-animations/main/out/fade_out.json"
+    },
+    {
+      "id": "zoom_out_shrink",
+      "name": "Zoom Out Shrink",
+      "kind": "out",
+      "targets": ["all"],
+      "defaultDuration": 0.45,
+      "url": "https://raw.githubusercontent.com/dapaaa07/concat-animations/main/out/zoom_out_shrink.json"
+    },
+    {
+      "id": "slide_out_right",
+      "name": "Slide Out Right",
+      "kind": "out",
+      "targets": ["all"],
+      "defaultDuration": 0.45,
+      "url": "https://raw.githubusercontent.com/dapaaa07/concat-animations/main/out/slide_out_right.json"
+    },
+    {
+      "id": "heartbeat_pulse",
+      "name": "Heartbeat Pulse",
+      "kind": "combo",
+      "targets": ["all"],
+      "defaultDuration": 1.0,
+      "url": "https://raw.githubusercontent.com/dapaaa07/concat-animations/main/combo/heartbeat_pulse.json"
+    }
+  ]
+}

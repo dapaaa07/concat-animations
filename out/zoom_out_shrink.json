@@ -1,0 +1,35 @@
+{
+  "id": "zoom_out_shrink",
+  "name": "Zoom Out Shrink",
+  "kind": "out",
+  "targets": ["all"],
+  "defaultDuration": 0.45,
+  "minDuration": 0.1,
+  "maxDuration": 3.0,
+  "tracks": {
+    "scale": [
+      {
+        "t": 0.0,
+        "value": { "type": "relative", "value": 1.0 },
+        "ease": "in"
+      },
+      {
+        "t": 1.0,
+        "value": { "type": "relative", "value": 0.05 },
+        "ease": "in"
+      }
+    ],
+    "opacity": [
+      {
+        "t": 0.0,
+        "value": { "type": "absolute", "value": 1.0 },
+        "ease": "linear"
+      },
+      {
+        "t": 1.0,
+        "value": { "type": "absolute", "value": 0.0 },
+        "ease": "in"
+      }
+    ]
+  }
+}
